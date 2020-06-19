@@ -1,0 +1,19 @@
+[package]
+name = "vulkano-stuff"
+version = "0.1.0"
+authors = ["Lorxu <sam@dirkback.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-vk = { path = "/home/lorxu/code/wasm-vk" }
+vulkano = "0.14"
+wabt = "*"
+image = "*"
+packed_simd = "*"
+rayon = "*"
+ispc = "*"
+
+[build-dependencies]
+ispc = "*"
